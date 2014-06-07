@@ -1,0 +1,38 @@
+{
+    "name": "spindle/lib-template",
+    "description": "composer library template",
+    "license": "CC0-1.0",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hiraku NAKANO",
+            "email": "hiraku@tojiru.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spindle\\Xxxx\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "apigen/apigen": "*",
+        "pdepend/pdepend": "*",
+        "nette/nette": "<2.2",
+        "dg/texy": "<v2.5"
+    },
+    "archive": {
+        "exclude": [
+            "tests/",
+            "builds/",
+            "Gruntfile.coffee",
+            "apigen.neon",
+            "phpunit.xml.dist",
+            "phpunit.xml",
+            "package.json"
+        ]
+    }
+}
