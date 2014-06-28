@@ -4,10 +4,6 @@
     "license": "CC0-1.0",
     "type": "project",
     "authors": [
-        {
-            "name": "Hiraku NAKANO",
-            "email": "hiraku@tojiru.net"
-        }
     ],
     "require": {
         "php": ">=5.3.2"
